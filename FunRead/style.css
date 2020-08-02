@@ -1,0 +1,190 @@
+
+/* this segment styles the header of the web page*/
+
+*{
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    background-color: #333333;
+    height: 5em;
+
+    
+}
+
+.logo-text {
+    padding: 10px;
+    
+    
+   
+   
+
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+
+.logo-text h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 30px;
+    font-size: 40px;
+    padding: 20px;
+    color: orange;
+    text-shadow: 2px tomato;
+    font-family: sans-serif;
+}
+
+.dropdown {
+    float: right;
+}
+
+.dropdown-content {
+    padding: 10px;
+    color: orange;
+    margin-top: 20px;
+    display: none;
+    
+}
+
+.dropdown-content a {
+    display: block;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* this segment styles the section of the web page's body*/
+
+.container {
+
+    background-color: #aaaaaa;
+    text-align: center;
+    width: 75%;
+    height: 80vh;
+    margin-top: 40px;
+    border-radius: 10px;
+
+    
+}
+
+
+
+.base-image-text1 {
+
+    background-image: url('img/Img4.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 18em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.base-image-text2 {
+
+    background-image: url('img/Img3.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 18em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+.base-image-text3 {
+
+    background-image: url('img/Img5.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 18em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+.base-image-text4 {
+
+    background-image: url('img/Img7.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 18em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+.container h3 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 50px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    width: 180px;
+    color: orange;
+    text-shadow: 18px 16px 15px 16px #222222;
+    
+
+}
+
+
+
+.container p {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    width: 200px;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: justify center;
+    margin-bottom: 20px;
+    color: blue;
+
+}
+
+
+.container button {
+    width: 60%;
+    height: 60px;
+    background-color: black;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 20px;
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
