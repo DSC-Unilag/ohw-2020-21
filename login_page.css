@@ -1,0 +1,87 @@
+body{
+		padding:0px;
+		margin:0px;
+   background-color:#231f3c;
+   font-family:poppins;
+		}
+.create{
+		padding:3pc 17px 3pc 0px;
+		font-weight:700;
+		color:orange;
+		width:85%;
+		margin:auto;
+		font-size:2.5pc;
+		}
+.continue{
+		font-size:20px;
+		font-weight:500px;
+		}
+form{
+		background-color:#1a1c2f;
+		padding:0px 17px;
+		width:80%;
+		margin:0pc auto 2pc auto;
+		border-radius:15px;
+		display:grid;
+		grid-template-rows:50px 50px 60px 45px 60px;
+		grid-template-columns:1fr;
+		color:#f0f0f0;
+		}
+input{
+		display:block;
+		background-color: transparent;
+		border:0px solid #f0f0f0;
+		border-bottom:.5px solid grey;
+		outline:none;
+		font-family:poppins;
+		color:#f0f0f0;
+		}
+input:focus{
+		border-bottom:.5px solid orange;
+		}
+input::placeholder{
+		color:#f0f0f0;
+		}
+input:-webkit-autofill{ 
+		-webkit-box-shadow:0 0 0 50px #1a1c2f inset; 
+		-webkit-text-fill-color:#fff; 
+		} 
+.forgotAndRemember{
+		display:grid;
+		grid-template-rows:1fr;
+		grid-template-columns:1fr auto;
+		align-items: center;
+		font-size:13px;
+		}
+#markRememberMe{
+		display:inline-block;
+		}
+.forgotPassword a{
+		color:#f0f0f0;
+		}
+#signup{
+		background-color:orange;
+		border-radius:10px;
+		font-weight:700;
+		border:0px solid orange;
+		color:#000;
+		}
+.signin{
+		line-height:60px;
+		text-align:center;
+		font-size:14px;
+		}
+.signin a{
+		color:#f0f0f0;
+		}
+
+
+
+@media(min-width:768px){
+.create{
+			width:45%;
+			}
+form{
+		width:45%;
+		}
+ }
